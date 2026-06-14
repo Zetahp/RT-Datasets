@@ -176,11 +176,11 @@ Use the following BibTeX entry after replacing the placeholders:
 
 ```bibtex
 @misc{xband_rt_dataset,
-  author       = {<Author List>},
-  title        = {{XBand RT Cross-Band CSI Dataset}},
+  author       = {Hongpu Zhang, Xiangwen Gu},
+  title        = {{Cross Band RT Cross-Band CSI Dataset}},
   year         = {2026},
   version      = {v1.0.0},
-  howpublished = {Online. Available: https://github.com/<user>/<repo>},
+  howpublished = {Online. Available: https://github.com/Zetahp/RT-Datasets},
   note         = {Data available at https://pan.sjtu.edu.cn/web/share/7b6db27da53809e35968b5b3f8e71f10. Accessed: 2026-06-14}
 }
 ```
