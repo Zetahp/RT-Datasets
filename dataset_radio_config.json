@@ -1,0 +1,91 @@
+{
+  "defaults": {
+    "num_subcarriers": 64,
+    "subcarrier_spacing_hz": 60000.0,
+    "carrier_freq_hz": 3500000000.0,
+    "antenna": {
+      "type": "URA",
+      "num_rows": 4,
+      "num_cols": 4,
+      "vertical_spacing_lambda": 0.5,
+      "horizontal_spacing_lambda": 0.5
+    },
+    "pads": {
+      "height": 256,
+      "width": 256
+    },
+    "normalization": {
+      "mode": "linear_max",
+      "eps": 1e-12,
+      "dynamic_range_db": 80.0
+    }
+  },
+  "rules": [
+    {
+      "pattern": "channel_data_2.4GHz*.mat",
+      "params": {
+        "carrier_freq_hz": 2400000000.0,
+        "num_subcarriers": 64,
+        "subcarrier_spacing_hz": 60000.0,
+        "antenna": {
+          "num_rows": 4,
+          "num_cols": 4
+        }
+      }
+    },
+    {
+      "pattern": "channel_data_3.5GHz*.mat",
+      "params": {
+        "carrier_freq_hz": 3500000000.0,
+        "num_subcarriers": 64,
+        "subcarrier_spacing_hz": 90000.0,
+        "antenna": {
+          "num_rows": 4,
+          "num_cols": 4
+        }
+      }
+    },
+    {
+      "pattern": "channel_data_15.0GHz*.mat",
+      "params": {
+        "carrier_freq_hz": 15000000000.0,
+        "num_subcarriers": 128,
+        "subcarrier_spacing_hz": 90000.0,
+        "antenna": {
+          "num_rows": 8,
+          "num_cols": 4
+        },
+        "pads": {
+        }
+      }
+    },
+    {
+      "pattern": "channel_data_28.0GHz*.mat",
+      "params": {
+        "carrier_freq_hz": 28000000000.0,
+        "num_subcarriers": 128,
+        "subcarrier_spacing_hz": 180000.0,
+        "antenna": {
+          "num_rows": 8,
+          "num_cols": 8
+        },
+        "pads": {
+        }
+      }
+    },
+    {
+      "pattern": "channel_data_40.0GHz*.mat",
+      "params": {
+        "carrier_freq_hz": 40000000000.0,
+        "num_subcarriers": 128,
+        "subcarrier_spacing_hz": 180000.0,
+        "antenna": {
+          "num_rows": 8,
+          "num_cols": 8
+        },
+        "pads": {
+        }
+      }
+    }
+  ]
+}
