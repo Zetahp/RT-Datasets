@@ -207,15 +207,7 @@ Please also cite the relevant upstream resources when appropriate:
 }
 ```
 
-## License and Attribution
-
-Add the final dataset license here before release. If distributing any
-OpenStreetMap-derived geometry or map files, preserve OpenStreetMap attribution
-and verify that the release is compatible with the Open Database License (ODbL).
-For generated CSI-only releases, keep the scene-source statement in this README
-so downstream users can correctly acknowledge the data origin.
-
-Suggested attribution text:
+## Attribution
 
 ```text
 This dataset includes RT scenes constructed from OpenStreetMap-derived map data
